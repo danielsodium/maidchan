@@ -1,0 +1,24 @@
+{
+  "name": "maidchan",
+  "version": "1.0.0",
+  "description": "Maid-chan helper",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "maidchan": "./bin/index.js"
+  },
+  "author": "Daniel Na",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.0",
+    "follow-redirects": "^1.14.5",
+    "html-to-text": "^8.1.0",
+    "node-html-parser": "^5.1.0",
+    "shelljs": "^0.8.4",
+    "simple-encryptor": "^4.0.0",
+    "terminal-kit": "^2.2.4"
+  }
+}
